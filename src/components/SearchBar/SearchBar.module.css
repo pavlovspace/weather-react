@@ -1,0 +1,35 @@
+.searchContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.cityList {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cityItem {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cityItem:hover {
+    background: #f0f0f0;
+}
