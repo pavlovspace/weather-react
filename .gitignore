@@ -34,3 +34,8 @@ npm-debug.log*
 .editorconfig
 *.sublime-project
 *.sublime-workspace
+
+.gitignore
+public/
+/public/*
+eslint.config.js
